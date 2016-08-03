@@ -7729,3 +7729,3056 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1463778654.2738
     'REQUEST_TIME' => 1463778654
 ]
+2016-05-22 05:37:22 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-05-22 05:37:21 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b52b5f61f40e9b224deb8261276e24a01a58840d5bf002263a56a352a2f3f7c6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nsfI_yQ89P-kKMovHQfBRe9S5L4D0Vzn\";}'
+    'PHPSESSID' => '79d141ktfipha2c7jkcm9ja2n4'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => '_csrf=b52b5f61f40e9b224deb8261276e24a01a58840d5bf002263a56a352a2f3f7c6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nsfI_yQ89P-kKMovHQfBRe9S5L4D0Vzn%22%3B%7D; PHPSESSID=79d141ktfipha2c7jkcm9ja2n4; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51342'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1463895441.1714
+    'REQUEST_TIME' => 1463895441
+]
+2016-05-22 05:43:30 [192.168.56.1][1][7ikr32h6v2stnfjamel4s1c1a3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "advanced/gii".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('advanced/gii', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-22 05:43:30 [192.168.56.1][1][7ikr32h6v2stnfjamel4s1c1a3][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+2016-05-22 05:43:30 [192.168.56.1][1][7ikr32h6v2stnfjamel4s1c1a3][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => '899f687be0eebad4f9e167a149838d96b5a7e87a41376d7965cef75545dc5eaca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rXjj1PMlH1qxkxhmfCJLmU70PCsmsFHQ\";}'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=899f687be0eebad4f9e167a149838d96b5a7e87a41376d7965cef75545dc5eaca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rXjj1PMlH1qxkxhmfCJLmU70PCsmsFHQ%22%3B%7D; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51417'
+    'REDIRECT_URL' => '/advanced/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advanced/gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1463895810.4027
+    'REQUEST_TIME' => 1463895810
+]
+2016-05-22 05:44:26 [192.168.56.1][1][7ikr32h6v2stnfjamel4s1c1a3][warning][yii\gii\Module::checkAccess] Access to Gii is denied due to IP address restriction. The requested IP is 192.168.56.1
+2016-05-22 05:44:26 [192.168.56.1][1][7ikr32h6v2stnfjamel4s1c1a3][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to access this page.' in /var/www/paredose/_protected/vendor/yiisoft/yii2-gii/Module.php:112
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Controller.php(142): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#2 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('gii/default/ind...', Array)
+#3 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/paredose/index.php(18): yii\base\Application->run()
+#5 {main}
+2016-05-22 05:44:28 [192.168.56.1][1][7ikr32h6v2stnfjamel4s1c1a3][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+2016-05-22 05:44:25 [192.168.56.1][1][7ikr32h6v2stnfjamel4s1c1a3][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'cffb15779cd1647c0ef4bdbd853694625460dbd15a7e44e78fbfd447f715b582a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uSy-Y32csarO2jwOqyynTC6DPeiZYzz8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=cffb15779cd1647c0ef4bdbd853694625460dbd15a7e44e78fbfd447f715b582a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uSy-Y32csarO2jwOqyynTC6DPeiZYzz8%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51429'
+    'REDIRECT_URL' => '/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1463895865.0494
+    'REQUEST_TIME' => 1463895865
+]
+2016-07-14 19:06:51 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-07-14 19:06:50 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => '91d137e9702df51f2cf1e98c7086c057298a1e4bf38e572288ed4504f43e4e05a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Y-KLAru7XURLpszOhP_lwyVGmXX9iLqh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=91d137e9702df51f2cf1e98c7086c057298a1e4bf38e572288ed4504f43e4e05a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Y-KLAru7XURLpszOhP_lwyVGmXX9iLqh%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51307'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1468523210.7509
+    'REQUEST_TIME' => 1468523210
+]
+2016-07-17 10:05:17 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-07-17 10:05:16 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => '8353c1213731aedab576fa5eabde3e6ed6ac5abe3f690daa196fb196e35d5d4ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BIKP4E6wMhTSx4qYw0dCTXwFGtdE1iSd\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=8353c1213731aedab576fa5eabde3e6ed6ac5abe3f690daa196fb196e35d5d4ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BIKP4E6wMhTSx4qYw0dCTXwFGtdE1iSd%22%3B%7D'
+    'HTTP_IF_NONE_MATCH' => '\"2d-432a5e4a73a80\"'
+    'HTTP_IF_MODIFIED_SINCE' => 'Mon, 11 Jun 2007 18:53:14 GMT'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49561'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1468749916.191
+    'REQUEST_TIME' => 1468749916
+]
+2016-07-17 14:49:17 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-07-17 14:49:16 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => '4fbfd966649a27ade2c38ad3e24c9fa4298e8da1f1e91156e918671d09fb8520a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MtN-E5Qc8pBfa79G3pIHC-c3Xh2RAQQL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=4fbfd966649a27ade2c38ad3e24c9fa4298e8da1f1e91156e918671d09fb8520a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MtN-E5Qc8pBfa79G3pIHC-c3Xh2RAQQL%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50044'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1468766956.5635
+    'REQUEST_TIME' => 1468766956
+]
+2016-07-17 19:23:32 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-07-17 19:23:32 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'd7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g3z1rPFjf_6FebO0SCakBuKt7hWh513c\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=d7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g3z1rPFjf_6FebO0SCakBuKt7hWh513c%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50377'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1468783412.3368
+    'REQUEST_TIME' => 1468783412
+]
+2016-07-17 19:24:56 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-07-17 19:24:56 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'd7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g3z1rPFjf_6FebO0SCakBuKt7hWh513c\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=d7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g3z1rPFjf_6FebO0SCakBuKt7hWh513c%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50390'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1468783496.0125
+    'REQUEST_TIME' => 1468783496
+]
+2016-07-17 19:24:57 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-07-17 19:24:57 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'd7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g3z1rPFjf_6FebO0SCakBuKt7hWh513c\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=d7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g3z1rPFjf_6FebO0SCakBuKt7hWh513c%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50391'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1468783497.7779
+    'REQUEST_TIME' => 1468783497
+]
+2016-07-31 20:31:04 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-07-31 20:31:03 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'd7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g3z1rPFjf_6FebO0SCakBuKt7hWh513c\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=d7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g3z1rPFjf_6FebO0SCakBuKt7hWh513c%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '54700'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1469997063.8583
+    'REQUEST_TIME' => 1469997063
+]
+2016-07-31 20:31:04 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-07-31 20:31:03 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'd7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g3z1rPFjf_6FebO0SCakBuKt7hWh513c\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=d7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g3z1rPFjf_6FebO0SCakBuKt7hWh513c%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '54699'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1469997062.9634
+    'REQUEST_TIME' => 1469997062
+]
+2016-07-31 20:31:04 [192.168.56.1][-][7ikr32h6v2stnfjamel4s1c1a3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-07-31 20:31:04 [192.168.56.1][-][7ikr32h6v2stnfjamel4s1c1a3][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+2016-07-31 20:31:04 [192.168.56.1][-][7ikr32h6v2stnfjamel4s1c1a3][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'd7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g3z1rPFjf_6FebO0SCakBuKt7hWh513c\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=d7558aef19eb3a302d41668796a7aa93afce3a56154fb0934171cff3d9aa434da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g3z1rPFjf_6FebO0SCakBuKt7hWh513c%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '54708'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1469997064.7373
+    'REQUEST_TIME' => 1469997064
+]
+2016-08-02 21:54:26 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-02 21:54:25 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'a6e34ec10d3e7802010b36422ab22961414627267fd4637b08f2f23b6aed0971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mtRcLgHy6oqzKqQkrCJC7QJw0R34QZoB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=a6e34ec10d3e7802010b36422ab22961414627267fd4637b08f2f23b6aed0971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mtRcLgHy6oqzKqQkrCJC7QJw0R34QZoB%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49525'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470174865.8583
+    'REQUEST_TIME' => 1470174865
+]
+2016-08-02 21:54:51 [192.168.56.1][-][7ikr32h6v2stnfjamel4s1c1a3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "phpmyadmin".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('phpmyadmin', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-02 21:54:51 [192.168.56.1][-][7ikr32h6v2stnfjamel4s1c1a3][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+2016-08-02 21:54:51 [192.168.56.1][-][7ikr32h6v2stnfjamel4s1c1a3][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49531'
+    'REDIRECT_URL' => '/phpmyadmin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/phpmyadmin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470174891.4369
+    'REQUEST_TIME' => 1470174891
+]
+2016-08-02 21:54:57 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-02 21:54:57 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49534'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470174897.7643
+    'REQUEST_TIME' => 1470174897
+]
+2016-08-02 22:00:47 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-02 22:00:47 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470175247.2081
+    'REQUEST_TIME' => 1470175247
+]
+2016-08-02 22:02:53 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:128
+2016-08-02 22:02:52 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jareye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49589'
+    'REDIRECT_URL' => '/site/contact'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/contact'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470175372.8207
+    'REQUEST_TIME' => 1470175372
+]
+2016-08-02 22:02:54 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:99
+2016-08-02 22:02:54 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jareye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/contact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49596'
+    'REDIRECT_URL' => '/site/about'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/about'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470175374.4865
+    'REQUEST_TIME' => 1470175374
+]
+2016-08-02 22:02:55 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/ArticleController.php:40
+2016-08-02 22:02:55 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jareye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49597'
+    'REDIRECT_URL' => '/article/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/article/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470175375.436
+    'REQUEST_TIME' => 1470175375
+]
+2016-08-02 22:02:56 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-02 22:02:56 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jareye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49599'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470175376.3985
+    'REQUEST_TIME' => 1470175376
+]
+2016-08-02 22:02:57 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/ArticleController.php:40
+2016-08-02 22:02:57 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jareye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49600'
+    'REDIRECT_URL' => '/article/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/article/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470175377.5404
+    'REQUEST_TIME' => 1470175377
+]
+2016-08-02 22:03:03 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-02 22:03:03 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '7ikr32h6v2stnfjamel4s1c1a3'
+    '_csrf' => 'bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jareye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=7ikr32h6v2stnfjamel4s1c1a3; _csrf=bb6afa2e4ad43e1bd933658858943b32a2e2eddc1cb2106da5a0984a997ecbe4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ez92vFMtT5ZRl5ljww6TQAY9l5Yqbq79%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '49601'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470175383.0623
+    'REQUEST_TIME' => 1470175383
+]
+2016-08-03 09:09:00 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 09:09:00 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '1b4df39489481cab3a8c043c91c34a978401eddae535e4cdb7192b43f6f2c6baa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SDSkWgus7cad-MBJPZ6By_6IcyhcDzik\";}'
+    'PHPSESSID' => '3rhnju3jp5d7oodmbr4l9bgsv6'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => '_csrf=1b4df39489481cab3a8c043c91c34a978401eddae535e4cdb7192b43f6f2c6baa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SDSkWgus7cad-MBJPZ6By_6IcyhcDzik%22%3B%7D; PHPSESSID=3rhnju3jp5d7oodmbr4l9bgsv6; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50630'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470215340.5743
+    'REQUEST_TIME' => 1470215340
+]
+2016-08-03 09:12:51 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 09:12:50 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '963aacbf6390f19b0c59f79086c6e692906f1a4e636a971e43cd47963186bb5fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ECaj41XHebi7a8FMp1bIaWFLvNddZvG8\";}'
+    'PHPSESSID' => '9ke1i0ke96ad6g5iqv717t4js5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => '_csrf=963aacbf6390f19b0c59f79086c6e692906f1a4e636a971e43cd47963186bb5fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ECaj41XHebi7a8FMp1bIaWFLvNddZvG8%22%3B%7D; PHPSESSID=9ke1i0ke96ad6g5iqv717t4js5'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50709'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470215570.9532
+    'REQUEST_TIME' => 1470215570
+]
+2016-08-03 09:12:57 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 09:12:57 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '9ke1i0ke96ad6g5iqv717t4js5'
+    '_csrf' => '95a1b7a3f7448ddc963c6671c70bfc5893531d58704cd032f11405c3153689faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"zMX1vHcI6TMcEq-lzqhXnC-XneatHxHD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=9ke1i0ke96ad6g5iqv717t4js5; _csrf=95a1b7a3f7448ddc963c6671c70bfc5893531d58704cd032f11405c3153689faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22zMX1vHcI6TMcEq-lzqhXnC-XneatHxHD%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50724'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470215577.4014
+    'REQUEST_TIME' => 1470215577
+]
+2016-08-03 09:12:59 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:173
+2016-08-03 09:12:59 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '9ke1i0ke96ad6g5iqv717t4js5'
+    '_csrf' => 'f67738f0704fec65d3a490cdcccd0e6dd1160ae8bdb202f00d0945a2fddbc4cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mzgGxgEZLycZy6wBAt9T7JLGptLJ8DxH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=9ke1i0ke96ad6g5iqv717t4js5; _csrf=f67738f0704fec65d3a490cdcccd0e6dd1160ae8bdb202f00d0945a2fddbc4cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mzgGxgEZLycZy6wBAt9T7JLGptLJ8DxH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50730'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470215579.0462
+    'REQUEST_TIME' => 1470215579
+]
+2016-08-03 09:13:18 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 09:13:18 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '25eca8160b6df299760a479b296c0820af124c8194dcf4327ad6b46d585f0360a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xGerbqu2yk7JWAYQClQIyOrlmCSLyVsr\";}'
+    'PHPSESSID' => 'v9dgkgg6bci2sovj7n1aheai40'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => '_csrf=25eca8160b6df299760a479b296c0820af124c8194dcf4327ad6b46d585f0360a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xGerbqu2yk7JWAYQClQIyOrlmCSLyVsr%22%3B%7D; PHPSESSID=v9dgkgg6bci2sovj7n1aheai40'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50752'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470215598.65
+    'REQUEST_TIME' => 1470215598
+]
+2016-08-03 09:13:34 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 09:13:34 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '4a60839019c8b258789a2cc199870f1bcf7aa7c29baf7b5b4253a52158ecdf4ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNYY0NoWl8KDQP2oKLHKzCS9mP99WkHl\";}'
+    'PHPSESSID' => 'g5qvpjrtm8b034bg9fi4dks166'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => '_csrf=4a60839019c8b258789a2cc199870f1bcf7aa7c29baf7b5b4253a52158ecdf4ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNYY0NoWl8KDQP2oKLHKzCS9mP99WkHl%22%3B%7D; PHPSESSID=g5qvpjrtm8b034bg9fi4dks166; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50772'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470215614.3822
+    'REQUEST_TIME' => 1470215614
+]
+2016-08-03 09:22:44 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/ArticleController.php:154
+2016-08-03 09:22:43 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'g5qvpjrtm8b034bg9fi4dks166'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => '7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=g5qvpjrtm8b034bg9fi4dks166; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50788'
+    'REDIRECT_URL' => '/article/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/article/admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470216163.9365
+    'REQUEST_TIME' => 1470216163
+]
+2016-08-03 09:22:47 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 09:22:47 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'g5qvpjrtm8b034bg9fi4dks166'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => '7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=g5qvpjrtm8b034bg9fi4dks166; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50794'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470216167.6551
+    'REQUEST_TIME' => 1470216167
+]
+2016-08-03 09:22:49 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/ArticleController.php:154
+2016-08-03 09:22:49 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'g5qvpjrtm8b034bg9fi4dks166'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => '7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=g5qvpjrtm8b034bg9fi4dks166; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50798'
+    'REDIRECT_URL' => '/article/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/article/admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470216169.0306
+    'REQUEST_TIME' => 1470216169
+]
+2016-08-03 09:22:52 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 09:22:52 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'g5qvpjrtm8b034bg9fi4dks166'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => '7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=g5qvpjrtm8b034bg9fi4dks166; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50803'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470216172.2496
+    'REQUEST_TIME' => 1470216172
+]
+2016-08-03 09:24:01 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 09:24:00 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'g5qvpjrtm8b034bg9fi4dks166'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => '7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=g5qvpjrtm8b034bg9fi4dks166; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50809'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470216240.9446
+    'REQUEST_TIME' => 1470216240
+]
+2016-08-03 09:24:04 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/ArticleController.php:154
+2016-08-03 09:24:04 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'g5qvpjrtm8b034bg9fi4dks166'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => '7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=g5qvpjrtm8b034bg9fi4dks166; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50817'
+    'REDIRECT_URL' => '/article/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/article/admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470216244.0089
+    'REQUEST_TIME' => 1470216244
+]
+2016-08-03 09:24:05 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 09:24:05 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'g5qvpjrtm8b034bg9fi4dks166'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => '7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=g5qvpjrtm8b034bg9fi4dks166; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=7a70daae96f3b78e0c722c4b52d98381bace43954841374fc10fffe1d0471528a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SHnmAGQGk9YsDJBUaDwpLCugefxGiDvl%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '50823'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470216245.344
+    'REQUEST_TIME' => 1470216245
+]
+2016-08-03 10:33:03 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:33:02 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'c74908f8f0820aaf3815b17f4d0c32adc50e42f7722c1c644479a13de590a4fea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tf2aoVoGGN2EAC6tE9TYQ7rtVMEPR74n\";}'
+    'PHPSESSID' => 'fnil92nf9p5dm1emsjgtv0o441'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => '_csrf=c74908f8f0820aaf3815b17f4d0c32adc50e42f7722c1c644479a13de590a4fea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tf2aoVoGGN2EAC6tE9TYQ7rtVMEPR74n%22%3B%7D; PHPSESSID=fnil92nf9p5dm1emsjgtv0o441; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51500'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470220382.8998
+    'REQUEST_TIME' => 1470220382
+]
+2016-08-03 10:50:17 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:50:17 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fnil92nf9p5dm1emsjgtv0o441'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=fnil92nf9p5dm1emsjgtv0o441; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51532'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221416.998
+    'REQUEST_TIME' => 1470221416
+]
+2016-08-03 10:50:19 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/ArticleController.php:154
+2016-08-03 10:50:19 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fnil92nf9p5dm1emsjgtv0o441'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=fnil92nf9p5dm1emsjgtv0o441; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51540'
+    'REDIRECT_URL' => '/article/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/article/admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221419.5286
+    'REQUEST_TIME' => 1470221419
+]
+2016-08-03 10:50:21 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:50:20 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fnil92nf9p5dm1emsjgtv0o441'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=fnil92nf9p5dm1emsjgtv0o441; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51542'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221420.9599
+    'REQUEST_TIME' => 1470221420
+]
+2016-08-03 10:53:33 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:53:33 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fnil92nf9p5dm1emsjgtv0o441'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=fnil92nf9p5dm1emsjgtv0o441; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51546'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221613.0498
+    'REQUEST_TIME' => 1470221613
+]
+2016-08-03 10:54:03 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:54:03 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fnil92nf9p5dm1emsjgtv0o441'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+    'PHPFRONTSESSID' => 'mbcdeprl0c7cdbqif6urkdml04'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=fnil92nf9p5dm1emsjgtv0o441; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D; PHPFRONTSESSID=mbcdeprl0c7cdbqif6urkdml04'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221643.4746
+    'REQUEST_TIME' => 1470221643
+]
+2016-08-03 10:54:26 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:54:26 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fnil92nf9p5dm1emsjgtv0o441'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+    'PHPFRONTSESSID' => 'mbcdeprl0c7cdbqif6urkdml04'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=fnil92nf9p5dm1emsjgtv0o441; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D; PHPFRONTSESSID=mbcdeprl0c7cdbqif6urkdml04'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51561'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221666.0806
+    'REQUEST_TIME' => 1470221666
+]
+2016-08-03 10:54:48 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:54:48 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fnil92nf9p5dm1emsjgtv0o441'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+    'PHPFRONTSESSID' => 'mbcdeprl0c7cdbqif6urkdml04'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/article/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=fnil92nf9p5dm1emsjgtv0o441; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D; PHPFRONTSESSID=mbcdeprl0c7cdbqif6urkdml04'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51568'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221688.6301
+    'REQUEST_TIME' => 1470221688
+]
+2016-08-03 10:54:50 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:54:50 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+    'PHPFRONTSESSID' => 'mbcdeprl0c7cdbqif6urkdml04'
+    'PHPSESSID' => 'j3bs13f92f2d8c0u2uk4h5u9j7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => '_csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D; PHPFRONTSESSID=mbcdeprl0c7cdbqif6urkdml04; PHPSESSID=j3bs13f92f2d8c0u2uk4h5u9j7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51576'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221690.0221
+    'REQUEST_TIME' => 1470221690
+]
+2016-08-03 10:54:59 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:173
+2016-08-03 10:54:59 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+    'PHPFRONTSESSID' => 'mbcdeprl0c7cdbqif6urkdml04'
+    'PHPSESSID' => 'j3bs13f92f2d8c0u2uk4h5u9j7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => '_csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D; PHPFRONTSESSID=mbcdeprl0c7cdbqif6urkdml04; PHPSESSID=j3bs13f92f2d8c0u2uk4h5u9j7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51577'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221699.675
+    'REQUEST_TIME' => 1470221699
+]
+2016-08-03 10:55:03 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:55:03 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi\";}'
+    'PHPSESSID' => 'j3bs13f92f2d8c0u2uk4h5u9j7'
+    'PHPFRONTSESSID' => '2vtluhs46vfsrbo1jpe36fd7m2'
+    '_frontendUser' => '91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => '_csrf=c874d612a4658b0b01074045ed4a80034820de44730b547096b855f765d19316a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X9PwLRDzuVwQadK6MC_KPkn3Y_aGElTi%22%3B%7D; PHPSESSID=j3bs13f92f2d8c0u2uk4h5u9j7; PHPFRONTSESSID=2vtluhs46vfsrbo1jpe36fd7m2; _frontendUser=91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51582'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221703.8639
+    'REQUEST_TIME' => 1470221703
+]
+2016-08-03 10:55:24 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:55:23 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPFRONTSESSID' => '2vtluhs46vfsrbo1jpe36fd7m2'
+    '_frontendUser' => '91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'e42fd342bacf980eb0c7ba51b894d60f1dc12e8f202cab5caf9c4afd0bf28e9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IUEOziA4_uwUCL03lRdrjQFJuYAeY3ed\";}'
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=2vtluhs46vfsrbo1jpe36fd7m2; _frontendUser=91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=e42fd342bacf980eb0c7ba51b894d60f1dc12e8f202cab5caf9c4afd0bf28e9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IUEOziA4_uwUCL03lRdrjQFJuYAeY3ed%22%3B%7D; PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51593'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221723.8822
+    'REQUEST_TIME' => 1470221723
+]
+2016-08-03 10:55:27 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:55:27 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'c4ab1eef54e3a893fd42fd5f28d98af1ef7cd4e831f51ccc0e6baa4017ffe4a2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"dEN0RBTd5b5xozA2-DecoZuym0LdXOXZ\";}'
+    'PHPFRONTSESSID' => 'm65bnduo08mbpf64g45gq9dne1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=c4ab1eef54e3a893fd42fd5f28d98af1ef7cd4e831f51ccc0e6baa4017ffe4a2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dEN0RBTd5b5xozA2-DecoZuym0LdXOXZ%22%3B%7D; PHPFRONTSESSID=m65bnduo08mbpf64g45gq9dne1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51601'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221727.3363
+    'REQUEST_TIME' => 1470221727
+]
+2016-08-03 10:55:29 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 10:55:29 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'c4ab1eef54e3a893fd42fd5f28d98af1ef7cd4e831f51ccc0e6baa4017ffe4a2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"dEN0RBTd5b5xozA2-DecoZuym0LdXOXZ\";}'
+    'PHPFRONTSESSID' => 'm65bnduo08mbpf64g45gq9dne1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=c4ab1eef54e3a893fd42fd5f28d98af1ef7cd4e831f51ccc0e6baa4017ffe4a2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dEN0RBTd5b5xozA2-DecoZuym0LdXOXZ%22%3B%7D; PHPFRONTSESSID=m65bnduo08mbpf64g45gq9dne1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470221729.588
+    'REQUEST_TIME' => 1470221729
+]
+2016-08-03 11:07:53 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 11:07:53 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    'PHPFRONTSESSID' => 'm65bnduo08mbpf64g45gq9dne1'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => '48c8324ab9862044a81904ec077048bb67e93d8fb96d509d92e5cfa75673ce2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bDcvayPFAEfdZL4n679-rVTJTliNN8X_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; PHPFRONTSESSID=m65bnduo08mbpf64g45gq9dne1; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=48c8324ab9862044a81904ec077048bb67e93d8fb96d509d92e5cfa75673ce2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bDcvayPFAEfdZL4n679-rVTJTliNN8X_%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51627'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470222473.2938
+    'REQUEST_TIME' => 1470222473
+]
+2016-08-03 11:08:03 [192.168.56.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:173
+2016-08-03 11:08:03 [192.168.56.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    'PHPFRONTSESSID' => 'm65bnduo08mbpf64g45gq9dne1'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPBACKSESSID' => 'j8e9jtt54cak1ucb7pt4v5pac0'
+    '_backendUser' => '2d32a65a8c66b301e7f19090a28a86af820741b47d858187295914da93151fdda:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; PHPFRONTSESSID=m65bnduo08mbpf64g45gq9dne1; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPBACKSESSID=j8e9jtt54cak1ucb7pt4v5pac0; _backendUser=2d32a65a8c66b301e7f19090a28a86af820741b47d858187295914da93151fdda%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51646'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470222482.9991
+    'REQUEST_TIME' => 1470222482
+]
+2016-08-03 11:08:07 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 11:08:07 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPBACKSESSID' => 'j8e9jtt54cak1ucb7pt4v5pac0'
+    '_backendUser' => '2d32a65a8c66b301e7f19090a28a86af820741b47d858187295914da93151fdda:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    'PHPFRONTSESSID' => 'co4540tbjqqhm4ber96esc88j5'
+    '_frontendUser' => '91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPBACKSESSID=j8e9jtt54cak1ucb7pt4v5pac0; _backendUser=2d32a65a8c66b301e7f19090a28a86af820741b47d858187295914da93151fdda%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; PHPFRONTSESSID=co4540tbjqqhm4ber96esc88j5; _frontendUser=91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51650'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470222487.2188
+    'REQUEST_TIME' => 1470222487
+]
+2016-08-03 11:08:12 [192.168.56.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+    in /var/www/paredose/_protected/frontend/controllers/SiteController.php:89
+2016-08-03 11:08:12 [192.168.56.1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => 'co4540tbjqqhm4ber96esc88j5'
+    '_frontendUser' => '91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    'PHPBACKSESSID' => 'e0ega3rf6g917fll7c1taqciq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=co4540tbjqqhm4ber96esc88j5; _frontendUser=91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; PHPBACKSESSID=e0ega3rf6g917fll7c1taqciq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51655'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470222492.1369
+    'REQUEST_TIME' => 1470222492
+]
+2016-08-03 11:14:24 [192.168.56.1][1][co4540tbjqqhm4ber96esc88j5][warning][yii\gii\Module::checkAccess] Access to Gii is denied due to IP address restriction. The requested IP is 192.168.56.1
+2016-08-03 11:14:24 [192.168.56.1][1][co4540tbjqqhm4ber96esc88j5][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to access this page.' in /var/www/paredose/_protected/vendor/yiisoft/yii2-gii/Module.php:112
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Controller.php(142): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#2 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('gii/default/ind...', Array)
+#3 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/paredose/index.php(18): yii\base\Application->run()
+#5 {main}
+2016-08-03 11:14:25 [192.168.56.1][1][co4540tbjqqhm4ber96esc88j5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:92
+2016-08-03 11:14:24 [192.168.56.1][1][co4540tbjqqhm4ber96esc88j5][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => 'co4540tbjqqhm4ber96esc88j5'
+    '_frontendUser' => '91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    'PHPBACKSESSID' => 'mgmee62ngfsqmaeadqumt2lrf5'
+    '_backendUser' => '2d32a65a8c66b301e7f19090a28a86af820741b47d858187295914da93151fdda:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=co4540tbjqqhm4ber96esc88j5; _frontendUser=91054db502fee59d4506f9043d39faff6e10b84644a9000c201cd573ad30424fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; PHPBACKSESSID=mgmee62ngfsqmaeadqumt2lrf5; _backendUser=2d32a65a8c66b301e7f19090a28a86af820741b47d858187295914da93151fdda%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '51682'
+    'REDIRECT_URL' => '/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470222864.815
+    'REQUEST_TIME' => 1470222864
+]

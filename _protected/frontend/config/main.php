@@ -20,9 +20,28 @@ return [
                 'baseUrl' => '@web/themes/cerulean',
             ],
         ],
+        'urlManagerBackend' => [
+                'class' => 'yii\web\urlManager',
+                'baseUrl' => '@appRoot/backend', //i.e. $_SERVER['DOCUMENT_ROOT'] .'/yiiapp/web/'
+                'enablePrettyUrl' => true,
+                'showScriptName' => false,
+        ],
+        'urlManagerFrontend' => [
+                'class' => 'yii\web\urlManager',
+                'baseUrl' => '@appRoot', //i.e. $_SERVER['DOCUMENT_ROOT'] .'/yiiapp/web/'
+                'enablePrettyUrl' => true,
+                'showScriptName' => false,
+        ],
         'user' => [
             'identityClass' => 'common\models\UserIdentity',
             'enableAutoLogin' => true,
+            'identityCookie' => [
+                'name' => '_frontendUser', // unique for frontend
+            ],
+        ],
+        'session' => [
+            'name' => 'PHPFRONTSESSID',
+            'savePath' => sys_get_temp_dir(),
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,

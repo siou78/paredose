@@ -8,14 +8,19 @@ class ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb
 {
     public static $files = array (
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '180092cfc969a12e06f2132a203a3184' => __DIR__ . '/..' . '/codeception/verify/src/Codeception/function.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'y' => 
         array (
+            'yii\\timeago\\' => 12,
             'yii\\swiftmailer\\' => 16,
+            'yii\\jui\\' => 8,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
@@ -23,6 +28,14 @@ class ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb
             'yii\\codeception\\' => 16,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
+        ),
+        'w' => 
+        array (
+            'warrence\\kartikgii\\' => 19,
+        ),
+        'r' => 
+        array (
+            'rmrevin\\yii\\fontawesome\\' => 24,
         ),
         'n' => 
         array (
@@ -35,17 +48,75 @@ class ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb
         ),
         'k' => 
         array (
-            'kartik\\social\\' => 14,
+            'kartik\\widgets\\' => 15,
+            'kartik\\typeahead\\' => 17,
+            'kartik\\touchspin\\' => 17,
+            'kartik\\time\\' => 12,
+            'kartik\\tabs\\' => 12,
+            'kartik\\switchinput\\' => 19,
+            'kartik\\spinner\\' => 15,
+            'kartik\\sortinput\\' => 17,
+            'kartik\\sortable\\' => 16,
+            'kartik\\sidenav\\' => 15,
+            'kartik\\select2\\' => 15,
+            'kartik\\rating\\' => 14,
+            'kartik\\range\\' => 13,
+            'kartik\\popover\\' => 15,
+            'kartik\\plugins\\tabs\\' => 20,
+            'kartik\\plugins\\popover\\' => 23,
+            'kartik\\plugins\\fileinput\\' => 25,
+            'kartik\\plugins\\depdrop\\' => 23,
+            'kartik\\plugins\\dateformatter\\' => 29,
+            'kartik\\plugins\\checkbox\\' => 24,
+            'kartik\\nav\\' => 11,
+            'kartik\\mpdf\\' => 12,
+            'kartik\\money\\' => 13,
+            'kartik\\label\\' => 13,
+            'kartik\\icons\\' => 13,
+            'kartik\\helpers\\' => 15,
+            'kartik\\growl\\' => 13,
+            'kartik\\grid\\' => 12,
+            'kartik\\form\\' => 12,
+            'kartik\\file\\' => 12,
+            'kartik\\editable\\' => 16,
+            'kartik\\dropdown\\' => 16,
+            'kartik\\dialog\\' => 14,
+            'kartik\\detail\\' => 14,
+            'kartik\\depdrop\\' => 15,
+            'kartik\\datetime\\' => 16,
+            'kartik\\daterange\\' => 17,
+            'kartik\\datecontrol\\' => 19,
+            'kartik\\date\\' => 12,
+            'kartik\\color\\' => 13,
+            'kartik\\checkbox\\' => 16,
+            'kartik\\builder\\' => 15,
             'kartik\\base\\' => 12,
+            'kartik\\alert\\' => 13,
+            'kartik\\affix\\' => 13,
+        ),
+        'd' => 
+        array (
+            'dosamigos\\google\\maps\\' => 22,
+            'dosamigos\\chartjs\\' => 18,
+            'dmstr\\' => 6,
         ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
         ),
+        'P' => 
+        array (
+            'Psr\\Http\\Message\\' => 17,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
+        ),
         'F' => 
         array (
             'Faker\\' => 6,
-            'Facebook\\' => 9,
         ),
         'D' => 
         array (
@@ -54,9 +125,17 @@ class ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb
     );
 
     public static $prefixDirsPsr4 = array (
+        'yii\\timeago\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiidoc/yii2-timeago',
+        ),
         'yii\\swiftmailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
+        ),
+        'yii\\jui\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-jui',
         ),
         'yii\\gii\\' => 
         array (
@@ -86,6 +165,14 @@ class ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
+        'warrence\\kartikgii\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/warrence/yii2-kartikgii',
+        ),
+        'rmrevin\\yii\\fontawesome\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rmrevin/yii2-fontawesome',
+        ),
         'nenad\\passwordStrength\\' => 
         array (
             0 => __DIR__ . '/..' . '/nenad/yii2-password-strength',
@@ -99,25 +186,221 @@ class ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb
         array (
             0 => __DIR__ . '/..' . '/mihaildev/yii2-ckeditor',
         ),
-        'kartik\\social\\' => 
+        'kartik\\widgets\\' => 
         array (
-            0 => __DIR__ . '/..' . '/kartik-v/yii2-social',
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widgets',
+        ),
+        'kartik\\typeahead\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-typeahead',
+        ),
+        'kartik\\touchspin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-touchspin',
+        ),
+        'kartik\\time\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-timepicker',
+        ),
+        'kartik\\tabs\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-tabs-x',
+        ),
+        'kartik\\switchinput\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-switchinput',
+        ),
+        'kartik\\spinner\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-spinner',
+        ),
+        'kartik\\sortinput\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-sortable-input',
+        ),
+        'kartik\\sortable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-sortable',
+        ),
+        'kartik\\sidenav\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-sidenav',
+        ),
+        'kartik\\select2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-select2',
+        ),
+        'kartik\\rating\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-rating',
+        ),
+        'kartik\\range\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-rangeinput',
+        ),
+        'kartik\\popover\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-popover-x',
+        ),
+        'kartik\\plugins\\tabs\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/bootstrap-tabs-x',
+        ),
+        'kartik\\plugins\\popover\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/bootstrap-popover-x',
+        ),
+        'kartik\\plugins\\fileinput\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/bootstrap-fileinput',
+        ),
+        'kartik\\plugins\\depdrop\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/dependent-dropdown',
+        ),
+        'kartik\\plugins\\dateformatter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/php-date-formatter',
+        ),
+        'kartik\\plugins\\checkbox\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/bootstrap-checkbox-x',
+        ),
+        'kartik\\nav\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-nav-x',
+        ),
+        'kartik\\mpdf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-mpdf',
+        ),
+        'kartik\\money\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-money',
+        ),
+        'kartik\\label\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-label-inplace',
+        ),
+        'kartik\\icons\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-icons',
+        ),
+        'kartik\\helpers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-helpers',
+        ),
+        'kartik\\growl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-growl',
+        ),
+        'kartik\\grid\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-grid',
+        ),
+        'kartik\\form\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-activeform',
+        ),
+        'kartik\\file\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-fileinput',
+        ),
+        'kartik\\editable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-editable',
+        ),
+        'kartik\\dropdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-dropdown-x',
+        ),
+        'kartik\\dialog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-dialog',
+        ),
+        'kartik\\detail\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-detail-view',
+        ),
+        'kartik\\depdrop\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-depdrop',
+        ),
+        'kartik\\datetime\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-datetimepicker',
+        ),
+        'kartik\\daterange\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-date-range',
+        ),
+        'kartik\\datecontrol\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-datecontrol',
+        ),
+        'kartik\\date\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-datepicker',
+        ),
+        'kartik\\color\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-colorinput',
+        ),
+        'kartik\\checkbox\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-checkbox-x',
+        ),
+        'kartik\\builder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-builder',
         ),
         'kartik\\base\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
         ),
+        'kartik\\alert\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-alert',
+        ),
+        'kartik\\affix\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-affix',
+        ),
+        'dosamigos\\google\\maps\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/yii2-google-maps-library',
+        ),
+        'dosamigos\\chartjs\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/yii2-chartjs-widget/src',
+        ),
+        'dmstr\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dmstr/yii2-adminlte-asset',
+        ),
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
-        ),
-        'Facebook\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/facebook/php-sdk-v4/src/Facebook',
         ),
         'DeepCopy\\' => 
         array (
@@ -126,6 +409,13 @@ class ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb
     );
 
     public static $prefixesPsr0 = array (
+        'c' => 
+        array (
+            'cebe\\gravatar\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/cebe/yii2-gravatar',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 
@@ -149,12 +439,41 @@ class ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb
         ),
     );
 
+    public static $classMap = array (
+        'CGIF' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/gif.php',
+        'CGIFCOLORTABLE' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/gif.php',
+        'CGIFFILEHEADER' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/gif.php',
+        'CGIFIMAGE' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/gif.php',
+        'CGIFIMAGEHEADER' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/gif.php',
+        'CGIFLZW' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/gif.php',
+        'INDIC' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/indic.php',
+        'MYANMAR' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/myanmar.php',
+        'OTLdump' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/otl_dump.php',
+        'PDFBarcode' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/barcode.php',
+        'SEA' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/sea.php',
+        'SVG' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/svg.php',
+        'TTFontFile' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/ttfontsuni.php',
+        'TTFontFile_Analysis' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/ttfontsuni_analysis.php',
+        'UCDN' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/ucdn.php',
+        'bmp' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/bmp.php',
+        'cssmgr' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/cssmgr.php',
+        'directw' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/directw.php',
+        'grad' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/grad.php',
+        'mPDF' => __DIR__ . '/..' . '/kartik-v/mpdf/mpdf.php',
+        'meter' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/meter.php',
+        'mpdfform' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/mpdfform.php',
+        'otl' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/otl.php',
+        'tocontents' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/tocontents.php',
+        'wmf' => __DIR__ . '/..' . '/kartik-v/mpdf/classes/wmf.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInita1a2029af97aaf57a43ecb6bb92f72cb::$classMap;
 
         }, null, ClassLoader::class);
     }
