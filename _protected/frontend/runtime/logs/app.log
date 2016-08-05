@@ -29236,3 +29236,571 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1470386474.8522
     'REQUEST_TIME' => 1470386474
 ]
+2016-08-05 09:29:32 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "paredose/themes/common_assets/images/logo-initials.png".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('paredose/themes...', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-05 09:29:32 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:93
+2016-08-05 09:29:32 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => '80iri57p5fobd8jfip5pdet4t5'
+    'PHPBACKSESSID' => '2dqvijdl3318qamgi129brlom2'
+    '_backendUser' => '0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a:2:{i:0;s:12:\"_backendUser\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/backend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=80iri57p5fobd8jfip5pdet4t5; PHPBACKSESSID=2dqvijdl3318qamgi129brlom2; _backendUser=0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '60691'
+    'REDIRECT_URL' => '/paredose/themes/common_assets/images/logo-initials.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/paredose/themes/common_assets/images/logo-initials.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470389372.2584
+    'REQUEST_TIME' => 1470389372
+]
+2016-08-05 09:29:32 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "paredose/themes/common_assets/images/logo.png".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('paredose/themes...', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-05 09:29:32 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:93
+2016-08-05 09:29:32 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => '80iri57p5fobd8jfip5pdet4t5'
+    'PHPBACKSESSID' => '2dqvijdl3318qamgi129brlom2'
+    '_backendUser' => '0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a:2:{i:0;s:12:\"_backendUser\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/backend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=80iri57p5fobd8jfip5pdet4t5; PHPBACKSESSID=2dqvijdl3318qamgi129brlom2; _backendUser=0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '60692'
+    'REDIRECT_URL' => '/paredose/themes/common_assets/images/logo.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/paredose/themes/common_assets/images/logo.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470389372.2695
+    'REQUEST_TIME' => 1470389372
+]
+2016-08-05 09:29:45 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "paredose/themes/common_assets/images/logo-initials.png".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('paredose/themes...', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-05 09:29:45 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:93
+2016-08-05 09:29:45 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => '80iri57p5fobd8jfip5pdet4t5'
+    'PHPBACKSESSID' => '2dqvijdl3318qamgi129brlom2'
+    '_backendUser' => '0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a:2:{i:0;s:12:\"_backendUser\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/backend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=80iri57p5fobd8jfip5pdet4t5; PHPBACKSESSID=2dqvijdl3318qamgi129brlom2; _backendUser=0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '60696'
+    'REDIRECT_URL' => '/paredose/themes/common_assets/images/logo-initials.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/paredose/themes/common_assets/images/logo-initials.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470389385.2238
+    'REQUEST_TIME' => 1470389385
+]
+2016-08-05 09:29:45 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "paredose/themes/common_assets/images/logo.png".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('paredose/themes...', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-05 09:29:45 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:93
+2016-08-05 09:29:45 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => '80iri57p5fobd8jfip5pdet4t5'
+    'PHPBACKSESSID' => '2dqvijdl3318qamgi129brlom2'
+    '_backendUser' => '0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a:2:{i:0;s:12:\"_backendUser\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/backend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=80iri57p5fobd8jfip5pdet4t5; PHPBACKSESSID=2dqvijdl3318qamgi129brlom2; _backendUser=0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '60697'
+    'REDIRECT_URL' => '/paredose/themes/common_assets/images/logo.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/paredose/themes/common_assets/images/logo.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470389385.2296
+    'REQUEST_TIME' => 1470389385
+]
+2016-08-05 09:29:48 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "paredose/themes/common_assets/images/logo-initials.png".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('paredose/themes...', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-05 09:29:48 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:93
+2016-08-05 09:29:48 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => '80iri57p5fobd8jfip5pdet4t5'
+    'PHPBACKSESSID' => '2dqvijdl3318qamgi129brlom2'
+    '_backendUser' => '0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a:2:{i:0;s:12:\"_backendUser\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/backend/product-category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=80iri57p5fobd8jfip5pdet4t5; PHPBACKSESSID=2dqvijdl3318qamgi129brlom2; _backendUser=0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '60702'
+    'REDIRECT_URL' => '/paredose/themes/common_assets/images/logo-initials.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/paredose/themes/common_assets/images/logo-initials.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470389388.2794
+    'REQUEST_TIME' => 1470389388
+]
+2016-08-05 09:29:48 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "paredose/themes/common_assets/images/logo.png".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('paredose/themes...', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-05 09:29:48 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:93
+2016-08-05 09:29:48 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => '80iri57p5fobd8jfip5pdet4t5'
+    'PHPBACKSESSID' => '2dqvijdl3318qamgi129brlom2'
+    '_backendUser' => '0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a:2:{i:0;s:12:\"_backendUser\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/backend/product-category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=80iri57p5fobd8jfip5pdet4t5; PHPBACKSESSID=2dqvijdl3318qamgi129brlom2; _backendUser=0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '60703'
+    'REDIRECT_URL' => '/paredose/themes/common_assets/images/logo.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/paredose/themes/common_assets/images/logo.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470389388.2818
+    'REQUEST_TIME' => 1470389388
+]
+2016-08-05 09:29:49 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "paredose/themes/common_assets/images/logo.png".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('paredose/themes...', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-05 09:29:49 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:93
+2016-08-05 09:29:49 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => '80iri57p5fobd8jfip5pdet4t5'
+    'PHPBACKSESSID' => '2dqvijdl3318qamgi129brlom2'
+    '_backendUser' => '0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a:2:{i:0;s:12:\"_backendUser\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/backend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=80iri57p5fobd8jfip5pdet4t5; PHPBACKSESSID=2dqvijdl3318qamgi129brlom2; _backendUser=0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '60708'
+    'REDIRECT_URL' => '/paredose/themes/common_assets/images/logo.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/paredose/themes/common_assets/images/logo.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470389389.7226
+    'REQUEST_TIME' => 1470389389
+]
+2016-08-05 09:29:49 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "paredose/themes/common_assets/images/logo-initials.png".' in /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('paredose/themes...', Array)
+#1 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/paredose/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/paredose/_protected/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/paredose/_protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/paredose/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-05 09:29:49 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.56.1
+    in /var/www/paredose/_protected/frontend/views/layouts/main.php:93
+2016-08-05 09:29:49 [192.168.56.1][-][80iri57p5fobd8jfip5pdet4t5][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k6m0kf3q5ikhdh682iujrtojr3'
+    '_identity' => '982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"iWZjjptJhLJesEe0VIbyKZF-esMXR3BL\",2592000]\";}'
+    '_csrf' => 'a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA\";}'
+    '_csrf-backend' => 'cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"66XCpR65REr1MOS5JkZxmDIGFjEz4w-f\";}'
+    'PHPFRONTSESSID' => '80iri57p5fobd8jfip5pdet4t5'
+    'PHPBACKSESSID' => '2dqvijdl3318qamgi129brlom2'
+    '_backendUser' => '0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a:2:{i:0;s:12:\"_backendUser\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-user'
+    'HOME' => '/home/www-user'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HTTP_AUTHORIZATION' => ''
+    'REDIRECT_APP_ENV' => 'dev'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => ''
+    'APP_ENV' => 'dev'
+    'proxy-nokeepalive' => '1'
+    'HTTP_HOST' => 'paredose.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://paredose.dev/backend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,el;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=k6m0kf3q5ikhdh682iujrtojr3; _identity=982c93e23c46e06bd5d7cead3e7c53ac5afc4c100225365f9222e7b13b3c6eeca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22iWZjjptJhLJesEe0VIbyKZF-esMXR3BL%22%2C2592000%5D%22%3B%7D; _csrf=a7fd721ba53e86686396458153d58f2ddedfc58376f8dffeaa178b82cbab1430a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LHL4JimP0QXCaWPj_8R-tvZjdF_TgHFA%22%3B%7D; _csrf-backend=cd06e6597ab4033caa0c84f23495bf1ca6b130cf510ba40179d7047139f6618ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2266XCpR65REr1MOS5JkZxmDIGFjEz4w-f%22%3B%7D; PHPFRONTSESSID=80iri57p5fobd8jfip5pdet4t5; PHPBACKSESSID=2dqvijdl3318qamgi129brlom2; _backendUser=0133dac6a492542635acc67a89d0b2dc632b894e8e53e6125e13423ad5a96a44a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Ubuntu)'
+    'SERVER_NAME' => 'paredose.dev'
+    'SERVER_ADDR' => '192.168.56.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.56.1'
+    'DOCUMENT_ROOT' => '/var/www/paredose'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/paredose'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/paredose/index.php'
+    'REMOTE_PORT' => '60707'
+    'REDIRECT_URL' => '/paredose/themes/common_assets/images/logo-initials.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/paredose/themes/common_assets/images/logo-initials.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470389389.7272
+    'REQUEST_TIME' => 1470389389
+]
