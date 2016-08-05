@@ -16,6 +16,7 @@ use Yii;
  * @property string $created_at
  * @property string $updated_at
  *
+ * @property UserLogin[] $userLogins
  * @property UserToUserRole[] $userToUserRoles
  * @property User[] $users
  */
@@ -93,5 +94,13 @@ class UserRole extends \yii\db\ActiveRecord
     public function getUsers()
     {
         return $this->hasMany(User::className(), ['id' => 'user_id'])->viaTable('user_to_user_role', ['user_role_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUserLogins()
+    {
+        return $this->hasMany(UserLogin::className(), ['user_role_id' => 'id']);
     }
 }

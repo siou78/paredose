@@ -121,6 +121,56 @@ class User extends UserIdentity
         return $this->hasMany(Article::className(), ['user_id' => 'id']);
     }    
 
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUserAdmin()
+    {
+        return $this->hasOne(UserAdmin::className(), ['user_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUserMember()
+    {
+        return $this->hasOne(UserMember::className(), ['user_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUserProfile()
+    {
+        return $this->hasOne(UserProfile::className(), ['user_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUserToUserRoles()
+    {
+        //return $this->hasMany(UserToUserRole::className(), ['user_id' => 'id']);
+        return $this->hasMany(UserRole::className(), ['id' => 'user_role_id'])
+                ->viaTable('user_to_user_role', ['user_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUserRoles()
+    {
+        return $this->hasMany(UserRole::className(), ['id' => 'user_role_id'])->viaTable('user_to_user_role', ['user_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUserLogins()
+    {
+        return $this->hasMany(UserLogin::className(), ['user_id' => 'id']);
+    }
+
 //------------------------------------------------------------------------------------------------//
 // USER FINDERS
 //------------------------------------------------------------------------------------------------//

@@ -6,7 +6,6 @@ use common\helpers\VariousHelper;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-
 if (class_exists('backend\assets\AppAsset')) {
     backend\assets\AppAsset::register($this);
 } else {
@@ -26,6 +25,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed201
     <meta name="author" content="Konstantinos Mitsarakis" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
     <link rel="shortcut icon" href="http://localhost/yii2_improved_template/favicon.ico" type="image/x-icon">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
@@ -43,6 +43,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed201
 
     </div>
 
+    <?php $this->registerJsFile('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js', ['depends' => [\yii\web\JqueryAsset::className()]]); ?>
     <?php $this->endBody() ?>
 </body>
 </html>

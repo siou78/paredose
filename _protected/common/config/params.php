@@ -11,14 +11,14 @@ return [
      *
      * If set to true users will have to activate their accounts using email account activation.
      */
-    'rna' => false,
+    'rna' => true,
 
     /**
      * Login With Email.
      *
      * If set to true users will have to login using email/password combo.
      */
-    'lwe' => false, 
+    'lwe' => true, 
 
     /**
      * Force Strong Password.

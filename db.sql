@@ -42,6 +42,17 @@ create table user_admin (
 	foreign key (user_id) references user(id) on delete cascade on update cascade
 );
 
+create table user_login (
+	id bigint unsigned not null auto_increment,
+	user_id int unsigned not null,
+	user_role_id tinyint unsigned not null,
+	ip varbinary(16),
+	created_at timestamp default current_timestamp,
+	primary key (id),
+	foreign key (user_id) references user(id) on delete cascade on update cascade,
+	foreign key (user_role_id) references user_role(id) on delete cascade on update cascade
+);
+
 create table product_category (
 	id tinyint unsigned not null auto_increment,
 	name varchar (50) not null,
