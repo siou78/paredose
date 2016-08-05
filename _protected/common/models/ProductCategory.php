@@ -65,6 +65,7 @@ class ProductCategory extends \yii\db\ActiveRecord
 
     /**
      * @inheritdoc
+     * app/labels location folder in /_protected/common/translations/en_US/
      */
     public function attributeLabels()
     {

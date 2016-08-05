@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = Yii::t('app/buttons', 'update');
 <div class="adminCrudWrapper">
     <div class="container product-category-update">
         <div class="row">
-            <div class="col-xs-24">
+            <div class="col-xs-12">
                 <?php  echo VariousHelper::htmlAdminItemMenu(['model' => null, 'heading_title' => Html::encode($title), 
                         'actions' => [
                             [

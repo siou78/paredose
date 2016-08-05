@@ -48,6 +48,12 @@ class ProductCategorySearch extends ProductCategory
             'query' => $query,
         ]);
 
+        $dataProvider->sort = [
+            'defaultOrder' => [
+                'created_at' => SORT_DESC,
+            ],
+        ];
+
         /*
         if (!($this->load($params) && $this->validate())) {
             return $dataProvider;
@@ -66,12 +72,13 @@ class ProductCategorySearch extends ProductCategory
         $query->andFilterWhere([
             'id' => $this->id,
             'rank' => $this->rank,
-            'created_at' => $this->created_at,
-            'updated_at' => $this->updated_at,
+            //'created_at' => $this->created_at,
+            //'updated_at' => $this->updated_at,
         ]);
 
         $query->andFilterWhere(['like', 'name', $this->name])
             ->andFilterWhere(['like', 'sys_name', $this->sys_name]);
+        //$query->andFilterWhere(['>=', 'rank', $this->rank]);
 
         return $dataProvider;
     }

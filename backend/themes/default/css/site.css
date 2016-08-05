@@ -193,3 +193,10 @@ hr.article-devider {
 .nz-meter-container {
     display: none;
 }
+
+
+/* mine */
+
+.adminCrudWrapper .panel-heading + div {
+    padding: 15px;
+}

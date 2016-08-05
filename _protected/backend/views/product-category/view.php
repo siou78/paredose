@@ -18,8 +18,8 @@ $this->params['breadcrumbs'][] = $title;
 <div class="adminCrudWrapper">
     <div class="container product-category-view">
         <div class="row">
-            <div class="col-xs-24">
-                <?php  echo VariousHelper::htmlAdminItemMenu(['model' => null, 'heading_title' => Html::encode($title), 
+            <div class="col-xs-12">
+                <?php  echo VariousHelper::htmlAdminItemMenu(['model' => null, 'heading_title' => $title, 
                     'actions' => [
                         [
                             'action' => ['index'],
@@ -53,7 +53,10 @@ $this->params['breadcrumbs'][] = $title;
                         ],
                         'attributes' => [
                             'id',
-                            'name',
+                            [
+                                'attribute' => 'name',
+                                'format' => 'raw',
+                            ],
                             'sys_name',
                             'rank',
                             [

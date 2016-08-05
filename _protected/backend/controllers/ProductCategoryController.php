@@ -7,9 +7,12 @@ use common\models\search\ProductCategorySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\base\InvalidCallException;
+use yii\web\Response;
+use kartik\widgets\ActiveForm;
 
 /**
  * ProductCategoryController implements the CRUD actions for ProductCategory model.
@@ -22,6 +25,15 @@ class ProductCategoryController extends Controller
     public function behaviors()
     {
         return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ], 
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -69,6 +81,10 @@ class ProductCategoryController extends Controller
     public function actionCreate()
     {
         $model = new ProductCategory();
+        if (Yii::$app->request->isAjax && $model->load(Yii::$app->request->post())) {
+            Yii::$app->response->format = Response::FORMAT_JSON;
+            return ActiveForm::validate($model);
+        }
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {

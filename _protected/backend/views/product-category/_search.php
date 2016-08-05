@@ -8,7 +8,7 @@ use yii\widgets\ActiveForm;
 ?>
 <div class="product-category-search">
     <div class="row">
-        <div class="col-xs-24">
+        <div class="col-xs-12">
         <?php $form = ActiveForm::begin([
             'action' => ['index'],
             'method' => 'get',

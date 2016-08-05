@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'home' => 'Home',
+    'about' => 'About us',
+    'contact' => 'Contact us',
+    'products' => 'Products',
+    'trading' => 'Trading',
+    'reasons_to_choose_us' => 'Reasons to choose GIM',
+    'news_and_events' => 'News &amp; Events',
+    'refer_to_friend' => 'Refer to a friend',
+    'security' => 'Security',
+    'privacy_policy' => 'Privacy Policy',
+    'login' => 'Log In',
+    'signup' => 'Sign Up',
+    'logout' => 'Logout',
+    'users' => 'Users',
+    'articles' => 'Articles',
+    'register' => 'Register',
+    'administrator_login' => 'Administrator Login',
+    'faq' => 'FAQ',
+    'help' => 'Help',
+    'contact_form' => 'Contact Form',
+    'contact_info' => 'Contact Info',
+    'map' => 'Map',
+];

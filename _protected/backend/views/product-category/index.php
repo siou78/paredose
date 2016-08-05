@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $title;
 <div class="adminCrudWrapper">
     <div class="container-fluid product-category-index">
         <div class="row">
-            <div class="col-xs-24">
+            <div class="col-xs-12">
                 <?php  echo VariousHelper::htmlAdminItemMenu(['model' => null, 'heading_title' => Html::encode($title), 
                     'actions' => [
                         [
@@ -42,12 +42,21 @@ $this->params['breadcrumbs'][] = $title;
                                 'mergeHeader' => false,
                             ],
                             'id',
-                            'name',
-                            'sys_name',
+                            [
+                                'attribute' => 'name',
+                                //'label' => 'Name',
+                                'format' => 'raw',
+                            ],
+                            [
+                                'attribute' => 'sys_name',
+                                //'label' => 'System Name',
+
+                            ],
                             'rank',
                             [
                                 'attribute' => 'created_at', 'format' => [
-                                    'datetime', (isset(Yii::$app->modules['datecontrol']['displaySettings']['datetime'])) ? Yii::$app->modules['datecontrol']['displaySettings']['datetime'] : 'd-m-Y H:i:s A']
+                                    'datetime', (isset(Yii::$app->modules['datecontrol']['displaySettings']['datetime'])) ? Yii::$app->modules['datecontrol']['displaySettings']['datetime'] : 'd-m-Y H:i:s A'],
+                                    'filter' => false,
                             ],
                             /* [
                                 'attribute' => 'updated_at', 'format' => [

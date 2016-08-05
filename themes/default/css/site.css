@@ -1,4 +1,4 @@
-@import url("bootstrap.min.css");
+
 
 html,
 body {
@@ -14,6 +14,10 @@ body {
 
 .wrap > .container {
     padding: 70px 15px 20px;
+}
+
+.wrap nav {
+    background-color: #333333;
 }
 
 /*-- Jumbotron tweaks --*/

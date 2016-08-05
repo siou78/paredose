@@ -19,14 +19,14 @@ use yii\helpers\ArrayHelper;
                 'class' => 'oddEvenWrapper wrapperBordered',
                 'validateOnSubmit' => true,
             ],
-            'fullSpan' => 24,
-            'formConfig' => ['labelSpan' => 6, 'deviceSize' => ActiveForm::SIZE_SMALL, 'fullSpan' => 18]
+            'fullSpan' => 12,
+            'formConfig' => ['labelSpan' => 3, 'deviceSize' => ActiveForm::SIZE_SMALL, 'fullSpan' => 9]
             ]); ?>
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]); ?>
     <?= $form->field($model, 'sys_name')->textInput(['maxlength' => true]); ?>
     <?= $form->field($model, 'rank')->textInput(); ?>
     <div class="form-group row">
-        <div class="col-xs-24 col-sm-12 col-md-6 pull-right clearfix">
+        <div class="col-xs-12 col-sm-6 col-md-3 pull-right text-right clearfix">
             <?= Html::submitButton($model->isNewRecord ? Yii::t('app/buttons', 'create') : Yii::t('app/buttons', 'update'), ['class' => 'fullWidth btn btn-success']) ?>
         </div>
     </div>
