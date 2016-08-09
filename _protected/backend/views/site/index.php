@@ -1,5 +1,7 @@
 <?php
 
+use yii\helpers\Html;
+
 /* @var $this yii\web\View */
 $this->title = 'My Yii Application';
 ?>
@@ -14,6 +16,51 @@ $this->title = 'My Yii Application';
     </div>
 
     <div class="body-content">
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Recently Added Members</h3>
+                        <div class="box-tools pull-right">
+                            <button class="btn btn-box-tool" data-widget="collapse" type="button">
+                                <i class="fa fa-minus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <?php if (count($data['user_members_recent']) > 0) : ?>
+                        <ul class="products-list product-list-in-box">
+                            <?php foreach($data['user_members_recent'] as $member) : ?>
+                            <?php
+                            $fullname = '';
+                            $country = '';
+                            if (!empty($member->userProfile)) {
+                                $fullname = $member->userProfile->firstname.' '.$member->userProfile->lastname;
+                                if (!empty($member->userMember->country)) {
+                                    $country = $member->userMember->country->name;
+                                }
+                            }
+                            ?>
+                            <li class="item">
+                                <div class="product-info">
+                                    <?= HTML::a($fullname.' <span class="label label-warning pull-right">'.$country.'</span>', ['/usermember/view', 'id' => $member->id], ['class' => 'product-title']); ?>
+                                    <span class="product-description"> <?= $member->email.' | '.$member->userMember->mobile; ?> </span>
+                                </div>
+                            </li>
+                            <?php endforeach; ?>
+                        </ul>
+                        <?php endif; ?>
+                        
+                    </div>
+                    <div class="box-footer text-center">
+                        <?= HTML::a('View All Members', ['/usermember/index'], []); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
 
         <div class="row">
             <div class="col-lg-3">

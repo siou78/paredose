@@ -23,7 +23,8 @@ $this->params['breadcrumbs'][] = $this->title;
             <?= $form->field($model, 'username') ?>
             <?= $form->field($model, 'email') ?>
             <?= $form->field($model, 'password')->widget(PasswordInput::classname(), []) ?>
-
+            <?= $form->field($model, 'confirm_password')->widget(PasswordInput::classname(), []) ?>
+            
             <div class="form-group">
                 <?= Html::submitButton(Yii::t('app', 'Signup'), ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
             </div>

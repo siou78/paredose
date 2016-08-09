@@ -1,6 +1,11 @@
 <?php
 namespace backend\controllers;
 
+use common\models\User;
+use common\models\UserRole;
+use common\models\UserMember;
+use common\models\UserProfile;
+
 use common\models\LoginForm;
 use yii\web\Controller;
 use yii\filters\AccessControl;
@@ -66,7 +71,23 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $data = [];
+
+        $role = UserRole::findOne(['sys_name' => 'member']);
+        $member_role_id = $role['id'];
+
+        //Recent Members
+        $data['user_members_recent'] = User::find()
+            ->joinWith(['userToUserRoles userToUserRoles', 'userProfile userProfile'])
+            ->joinWith(['userMember userMember' => function(\yii\db\ActiveQuery $query) {
+                $query->joinWith(['country country']);
+            },])
+            ->where(['userToUserRoles.user_role_id' => $member_role_id])
+            ->orderBy('created_at')
+            ->limit(10)
+            ->all();
+            //var_dump($data['user_members_recent']);exit;
+        return $this->render('index', ['data' => $data]);
     }
 
     /**

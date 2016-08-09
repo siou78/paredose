@@ -23,7 +23,7 @@ use kartik\widgets\TouchSpin;
             ],
             'fullSpan' => 12,
             'formConfig' => ['labelSpan' => 3, 'deviceSize' => ActiveForm::SIZE_SMALL, 'fullSpan' => 9]
-            ]); ?>
+        ]); ?>
     <?= $form->field($model, 'product_category_id')->dropDownList(ArrayHelper::map(ProductCategory::find()->all(), 'id', 'name'),  ['prompt' => 'Select', 'encode' => false, 'class' => 'selectpicker show-tick']); ?>
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]); ?>
     <?= $form->field($model, 'price', [ 

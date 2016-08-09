@@ -7,6 +7,28 @@ use yii\behaviors\TimestampBehavior;
 use Yii;
 
 /**
+ * This is the model class for table "user".
+ *
+ * @property integer $id
+ * @property string $username
+ * @property string $email
+ * @property string $password_hash
+ * @property integer $status
+ * @property string $auth_key
+ * @property string $password_reset_token
+ * @property string $account_activation_token
+ * @property integer $created_at
+ * @property integer $updated_at
+ *
+ * @property UserAdmin $userAdmin
+ * @property UserLogin[] $userLogins
+ * @property UserMember $userMember
+ * @property UserProfile $userProfile
+ * @property UserToUserRole[] $userToUserRoles
+ * @property UserRole[] $userRoles
+ */
+
+/**
  * This is the user model class extending UserIdentity.
  * Here you can implement your custom user solutions.
  *
@@ -19,6 +41,7 @@ class User extends UserIdentity
     const STATUS_ACTIVE = 10;
 
     public $password;
+    public $confirm_password;
 
     /**
      * @var \common\rbac\models\Role
@@ -34,17 +57,31 @@ class User extends UserIdentity
     {
         return [
             [['username', 'email'], 'filter', 'filter' => 'trim'],
-            [['username', 'email', 'status'], 'required'],
+            [['username', 'email'], 'required'],
             ['email', 'email'],
             ['username', 'string', 'min' => 2, 'max' => 255],
 
             // password field is required on 'create' scenario
-            ['password', 'required', 'on' => 'create'],
+            [['password', 'confirm_password'], 'required', 'on' => 'create'],
+            ['confirm_password', 'compare', 'compareAttribute' => 'password', 'on' => 'create'],
             // use passwordStrengthRule() method to determine password strength
             $this->passwordStrengthRule(),
                       
             ['username', 'unique', 'message' => 'This username has already been taken.'],
             ['email', 'unique', 'message' => 'This email address has already been taken.'],
+
+            ['confirm_password', 'compare', 'compareAttribute' => 'password', 'on' => ['update_user_member'], 'message' => 'Passwords does not match.'],
+            ['confirm_password', 'required', 'on' => ['update_user_member'], 'when'  =>  function ($model) {
+                return !empty($model->password);
+            }, 'whenClient'  =>  "function (attribute, value) {
+                return $('#user-confirm_password').val() != '';
+            }"],
+                    
+            ['password', 'required', 'on' => ['update_user_member'], 'when'  =>  function ($model) {
+                return !empty($model->password);
+            }, 'whenClient'  =>  "function (attribute, value) {
+                return $('#user-password').val() != '';
+            }"],
         ];
     }
 
@@ -148,11 +185,20 @@ class User extends UserIdentity
     /**
      * @return \yii\db\ActiveQuery
      */
+    /* if there is no model then relation uses the function viaTable
     public function getUserToUserRoles()
     {
         //return $this->hasMany(UserToUserRole::className(), ['user_id' => 'id']);
         return $this->hasMany(UserRole::className(), ['id' => 'user_role_id'])
                 ->viaTable('user_to_user_role', ['user_id' => 'id']);
+    }*/
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUserToUserRoles()
+    {
+        return $this->hasMany(UserToUserRole::className(), ['user_id' => 'id']);
     }
 
     /**

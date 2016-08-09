@@ -285,6 +285,8 @@ class SiteController extends Controller
             // try to save user data in database
             if ($user = $model->signup()) 
             {
+                //var_dump($user);
+                //exit;
                 // if user is active he will be logged in automatically ( this will be first user )
                 if ($user->status === User::STATUS_ACTIVE)
                 {
@@ -297,8 +299,8 @@ class SiteController extends Controller
                 else 
                 {
                     $this->signupWithActivation($model, $user);
-
-                    return $this->refresh();
+                    return $this->redirect('login');
+                    //return $this->refresh();
                 }            
             }
             // user could not be saved in database

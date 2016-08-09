@@ -24,7 +24,7 @@ $this->params['breadcrumbs'][] = $title;
 <div class="adminCrudWrapper well <?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-view">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-24">
+            <div class="col-xs-12">
                 <h1><?= "<?= " ?>Html::encode($title); ?></h1>
                 <p>
                     <?= "<?= " ?>Html::a(Yii::t('app/buttons', 'view_all'), ['index'], ['class' => 'btn btn-info']) ?>

@@ -39,6 +39,12 @@ use yii\helpers\HTML;
                             ['label' => 'Create', 'icon' => 'fa fa-plus', 'url' => ['/user-role/create'],],
                         ]
                     ],
+                    [
+                        'label' => 'Members', 'icon' => 'fa fa-circle-o', 'url' => ['/user-member/index'], 'active' => Yii::$app->controller->id == 'user-member', 'items' => [
+                            ['label' => 'View All', 'icon' => 'fa fa-list', 'url' => ['/user-member/index'],],
+                            ['label' => 'Create', 'icon' => 'fa fa-plus', 'url' => ['/user-member/create'],],
+                        ]
+                    ],
                     
                 ],
             ]

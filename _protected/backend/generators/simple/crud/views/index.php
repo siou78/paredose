@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $title;
 <div class="adminCrudWrapper well <?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-index">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-24">
+            <div class="col-xs-12">
                 <h1><?= "<?= " ?>Html::encode($title) ?></h1>
 <?php if(!empty($generator->searchModelClass)): ?>
 <?= "               <?php " . ($generator->indexWidgetType === 'grid' ? "// " : "") ?>echo $this->render('_search', ['model' => $searchModel]); ?>

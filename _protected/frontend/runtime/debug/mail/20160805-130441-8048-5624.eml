@@ -1,0 +1,49 @@
+Message-ID: <0597b2ae6ea88cc534da25233b473752@paredose.dev>
+Date: Fri, 05 Aug 2016 13:04:41 +0000
+Subject: Account activation for Pare-Dose
+From: Pare-Dose robot <support@example.com>
+To: demo3@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1470402281_d5f2986e21e92fe02cffa7d9b4ee5447_=_"
+
+
+--_=_swift_v4_1470402281_d5f2986e21e92fe02cffa7d9b4ee5447_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello demo3,
+
+Follow this link to activate your account:
+
+Please, c=
+lick here to activate your account.
+
+--_=_swift_v4_1470402281_d5f2986e21e92fe02cffa7d9b4ee5447_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+   =20
+Hello demo3,
+
+Follow this link to activate your account:
+
+<a=
+ href=3D"http://paredose.dev/site/activate-account?token=3DFEV_r75-xBFDLh-5=
+9P1QXi_LUo7oO3K7_1470402281">Please, click here to activate your account.</=
+a>    </body>
+</html>
+
+
+--_=_swift_v4_1470402281_d5f2986e21e92fe02cffa7d9b4ee5447_=_--

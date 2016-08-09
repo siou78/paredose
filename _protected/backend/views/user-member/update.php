@@ -1,0 +1,43 @@
+<?php
+use yii\helpers\Html;
+use common\helpers\VariousHelper;
+
+/* @var $this yii\web\View */
+/* @var $model common\models\UserMember */
+
+$title = Yii::t('app/buttons', 'update').' '.Yii::t('app/models', 'UserMember').': '.$user->id;
+$this->title = Yii::$app->name.' | '.$title;
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app/models', 'UserMemberPlurar'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $user->id, 'url' => ['view', 'id' => $user->id]];
+$this->params['breadcrumbs'][] = Yii::t('app/buttons', 'update');
+?>
+<div class="adminCrudWrapper well user-member-update">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <?php  echo VariousHelper::htmlAdminItemMenu(['model' => null, 'heading_title' => Html::encode($title), 
+                        'actions' => [
+                            [
+                                'action' => ['index'],
+                                'title' => Yii::t('app/buttons', 'view_all'),
+                            ],
+                            [
+                                'action' => ['create'],
+                                'title' => Yii::t('app/buttons', 'create'),
+                            ],
+                            [
+                                'action' => ['update', 'id' => $user->id],
+                                'title' => Yii::t('app/buttons', 'update'),
+                            ],
+                        ]
+                    ]);
+                ?>
+                <?= $this->render('_form', [
+                    'user' => $user,
+                    'user_profile' => $user_profile,
+                    'user_member' => $user_member,
+                ]); ?>
+            </div>
+        </div>
+    </div>
+</div>

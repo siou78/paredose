@@ -1,6 +1,7 @@
 <?php
 namespace common\models;
 
+use common\models\UserLogin;
 use yii\base\Model;
 use Yii;
 
@@ -84,6 +85,17 @@ class LoginForm extends Model
     {
         if ($this->validate()) 
         {
+            $user_login = new UserLogin;
+            $member_role = UserRole::findOne(['sys_name' => 'member']);
+
+            $user = $this->getUser();
+            if (!empty($user)) {
+                $user_login->user_id = $user->id;
+                $user_login->user_role_id = $member_role->id;
+                $user_login->ip = Yii::$app->request->getUserIP();
+                $user_login->save();
+            }
+
             return Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0);
         } 
         else 

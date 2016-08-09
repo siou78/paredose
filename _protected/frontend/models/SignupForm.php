@@ -2,6 +2,10 @@
 namespace frontend\models;
 
 use common\models\User;
+use common\models\UserMember;
+use common\models\UserProfile;
+use common\models\UserToUserRole;
+use common\models\UserRole;
 use common\rbac\helpers\RbacHelper;
 use nenad\passwordStrength\StrengthValidator;
 use yii\base\Model;
@@ -15,6 +19,7 @@ class SignupForm extends Model
     public $username;
     public $email;
     public $password;
+    public $confirm_password;
     public $status;
 
     /**
@@ -38,9 +43,11 @@ class SignupForm extends Model
             ['email', 'unique', 'targetClass' => '\common\models\User', 
                 'message' => 'This email address has already been taken.'],
 
-            ['password', 'required'],
+            [['password', 'confirm_password'], 'required'],
+            [['confirm_password'], 'compare', 'compareAttribute'=>'password'],
             // use passwordStrengthRule() method to determine password strength
             $this->passwordStrengthRule(),
+
 
             // on default scenario, user status is set to active
             ['status', 'default', 'value' => User::STATUS_ACTIVE, 'on' => 'default'],
@@ -109,6 +116,55 @@ class SignupForm extends Model
             $user->generateAccountActivationToken();
         }
 
+        $transaction = Yii::$app->db->beginTransaction();
+        try {
+            if ($user->save()) {
+                $user_profile = new UserProfile;
+                $user_member = new UserMember;
+                $user_to_user_role = new UserToUserRole;
+
+                $member_role = UserRole::findOne(['sys_name' => 'member']);
+
+                $user_profile->user_id = $user->id;
+                $user_member->user_id = $user->id;
+                $user_to_user_role->user_id = $user->id;
+                $user_to_user_role->user_role_id = $member_role->id;
+
+                if ($user_to_user_role->save() && $user_profile->save() && $user_member->save()) {
+                    $transaction->commit();
+                }
+            }
+        } catch (Exception $ex) {
+            $transaction->rollBack();
+            throw $e;
+        }
+
+        return $user;
+    }
+
+    /**
+     * Signs up the user.
+     * If scenario is set to "rna" (registration needs activation), this means
+     * that user need to activate his account using email confirmation method.
+     *
+     * @return User|null The saved model or null if saving fails.
+     */
+    public function signup_original()
+    {
+        $user = new User();
+
+        $user->username = $this->username;
+        $user->email = $this->email;
+        $user->setPassword($this->password);
+        $user->generateAuthKey();
+        $user->status = $this->status;
+
+        // if scenario is "rna" we will generate account activation token
+        if ($this->scenario === 'rna')
+        {
+            $user->generateAccountActivationToken();
+        }
+
         // if user is saved and role is assigned return user object
         return $user->save() && RbacHelper::assignRole($user->getId()) ? $user : null;
     }
@@ -121,6 +177,7 @@ class SignupForm extends Model
      */
     public function sendAccountActivationEmail($user)
     {
+        return true; // enable when site goes live
         return Yii::$app->mailer->compose('accountActivationToken', ['user' => $user])
             ->setFrom([Yii::$app->params['supportEmail'] => Yii::$app->name . ' robot'])
             ->setTo($this->email)

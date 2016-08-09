@@ -11,9 +11,10 @@ use Yii;
  *
  * @property integer $user_id
  * @property string $mobile
+ * @property string $country_id
  * @property string $created_at
  * @property string $updated_at
- *
+ * 
  * @property User $user
  */
 class UserMember extends \yii\db\ActiveRecord
@@ -40,6 +41,7 @@ class UserMember extends \yii\db\ActiveRecord
             //[['user_id'], 'integer'],
             //[['created_at', 'updated_at'], 'safe'],
             [['mobile'], 'string', 'min' => 7, 'max' => 20],
+            [['country'], 'exist', 'skipOnError' => true, 'skipOnEmpty' => true, 'targetClass' => Country::className(), 'targetAttribute' => ['country_id' => 'id']],
             //[['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
         ];
     }
@@ -80,5 +82,13 @@ class UserMember extends \yii\db\ActiveRecord
     public function getUser()
     {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getCountry()
+    {
+        return $this->hasOne(Country::className(), ['id' => 'country_id']);
     }
 }

@@ -18,7 +18,7 @@ use yii\widgets\ActiveForm;
 <div class="<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-search">
     <div class="container">
         <div class="row">
-            <div class="col-xs-24">
+            <div class="col-xs-12">
             <?= "   <?php " ?>$form = ActiveForm::begin([
                 'action' => ['index'],
                 'method' => 'get',

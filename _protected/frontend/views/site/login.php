@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use frontend\widgets\Alert;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -14,9 +15,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <div class="col-lg-5 well bs-component">
-
+        
         <p><?= Yii::t('app', 'Please fill out the following fields to login:') ?></p>
-
+        
         <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
 
         <?php //-- use email or username field depending on model scenario --// ?>

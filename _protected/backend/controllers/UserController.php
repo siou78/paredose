@@ -2,7 +2,7 @@
 namespace backend\controllers;
 
 use common\models\User;
-use common\models\UserSearch;
+use common\models\search\UserSearch;
 use common\rbac\models\Role;
 use yii\base\Model;
 use yii\web\NotFoundHttpException;

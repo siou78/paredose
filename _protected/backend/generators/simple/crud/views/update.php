@@ -25,7 +25,7 @@ $this->params['breadcrumbs'][] = Yii::t('app/buttons', 'update');
 <div class="adminCrudWrapper well <?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-update">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-24">
+            <div class="col-xs-12">
                 <?= "<?= " ?>AdminNavBar::widget(['params' => ['items' => [['text' => Yii::t('app/buttons', 'view_all'), 'url' => 'index', 'htmlOptions' => ['class'=>'btn btn-info']]]]]); ?>
                 <h1><?= "<?= " ?>Html::encode($title) ?></h1>
                 <?= "<?= " ?>$this->render('_form', [
